@@ -230,6 +230,12 @@ USE_DEX2OAT_DEBUG := false
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/perf/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
+# Preopt critical applications
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    GoogleDialer
+
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
