@@ -169,3 +169,6 @@ on boot
 
     # Touch
     chown system system /sys/devices/platform/goodix_ts.0/switch_report_rate
+	
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
