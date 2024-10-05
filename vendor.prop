@@ -280,6 +280,7 @@ ro.vendor.gps.chrdev=gps_drv_dl_v051
 
 # HWUI
 debug.hwui.skia_atrace_enabled=false
+debug.hwui.render_dirty_regions=false
 
 # IMS
 persist.dbg.volte_avail_ovr=1
