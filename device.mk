@@ -44,6 +44,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
+	
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePkgs
 
 PRODUCT_PACKAGES += \
     e2fsck.vendor_ramdisk \
