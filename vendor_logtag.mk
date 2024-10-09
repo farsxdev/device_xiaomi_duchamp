@@ -266,3 +266,4 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.log.tag.mtkpower_client=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.trm_lib=$(VENDOR_LOG_LEVEL) \
     persist.log.tag.wpfa_iptable_android=$(VENDOR_LOG_LEVEL)
+    persist.log.tag.hwcomposer=$(VENDOR_LOG_LEVEL)
