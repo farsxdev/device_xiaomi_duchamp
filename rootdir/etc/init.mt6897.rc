@@ -62,6 +62,8 @@ on charger
 on fs
     mount_all --early
 
+    write /proc/sys/vm/swappiness 60
+
     # mount rescue
     mount ext4 /dev/block/by-name/rescue /mnt/rescue noatime
     restorecon_recursive /mnt/rescue
