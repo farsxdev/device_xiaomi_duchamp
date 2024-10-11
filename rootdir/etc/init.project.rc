@@ -172,3 +172,7 @@ on boot
 	
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
+    
+    # Fake bootloader state
+    on init && property:ro.secureboot.devicelock=1
+    setprop ro.secureboot.lockstate locked

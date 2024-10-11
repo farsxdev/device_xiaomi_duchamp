@@ -330,6 +330,13 @@ ro.vendor.mediatek.version.release=alps-mp-u0.mp1.tc8sp1-V1
 
 # Misc
 persist.wm.debug.predictive_back=1
+ro.boot.verifiedbootstate=green
+vendor.boot.verifiedbootstate=green
+vendor.boot.vbmeta.device_state=locked
+ro.boot.veritymode=enforcing
+ro.boot.vbmeta.device_state=locked
+ro.boot.flash.locked=1
+sys.oem_unlock_allowed 0
 
 # Radio
 persist.radio.multisim.config=dsds
