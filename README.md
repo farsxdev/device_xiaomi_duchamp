@@ -1,4 +1,4 @@
-Copyright (C) 2023-2024 The LineageOS Project
+Copyright (C) 2023-2024 The PixelOS Project
 
 Device configuration for Poco X6 Pro 5G/Redmi K70E
 =============================================================
